@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>theCodeReaper</Authors>
+    <Description>Added DDD objects to the mediatR library.</Description>
+    <PackageId>theCodeReaper.MediatR.DDD</PackageId>
+    <PackageLicenseFile></PackageLicenseFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/thecodereaper/mediatr.ddd</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/thecodereaper/mediatr.ddd</RepositoryUrl>
+    <PackageTags>MediatR, DDD</PackageTags>
+    <PackageReleaseNotes>Initial release.</PackageReleaseNotes>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="8.0.1" />
+  </ItemGroup>
+
+</Project>
