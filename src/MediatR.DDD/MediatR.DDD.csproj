@@ -12,6 +12,8 @@
     <PackageTags>MediatR, DDD</PackageTags>
     <PackageReleaseNotes>Initial release.</PackageReleaseNotes>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.1</Version>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
   </PropertyGroup>
 
   <ItemGroup>
