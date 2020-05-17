@@ -3,17 +3,17 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <Authors>theCodeReaper</Authors>
-    <Description>Added DDD objects to the mediatR library.</Description>
+    <Description>Provides DDD objects with the mediatR library.</Description>
     <PackageId>theCodeReaper.MediatR.DDD</PackageId>
     <PackageLicenseFile></PackageLicenseFile>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/thecodereaper/mediatr.ddd</PackageProjectUrl>
     <RepositoryUrl>https://github.com/thecodereaper/mediatr.ddd</RepositoryUrl>
     <PackageTags>MediatR, DDD, CQRS, CQS</PackageTags>
-    <PackageReleaseNotes>Added new exception types: BadRequestException, ConflictException, ForbiddenException, MethodNotAllowedException, NotFoundException, UnauthorizedException</PackageReleaseNotes>
+    <PackageReleaseNotes>Added IPager interface.</PackageReleaseNotes>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.1</Version>
-    <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <Version>1.0.2</Version>
+    <AssemblyVersion>1.0.2.0</AssemblyVersion>
     <PackageIcon></PackageIcon>
   </PropertyGroup>
 
