@@ -9,11 +9,12 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/thecodereaper/mediatr.ddd</PackageProjectUrl>
     <RepositoryUrl>https://github.com/thecodereaper/mediatr.ddd</RepositoryUrl>
-    <PackageTags>MediatR, DDD</PackageTags>
-    <PackageReleaseNotes>Initial release.</PackageReleaseNotes>
+    <PackageTags>MediatR, DDD, CQRS, CQS</PackageTags>
+    <PackageReleaseNotes>Added new exception types: BadRequestException, ConflictException, ForbiddenException, MethodNotAllowedException, NotFoundException, UnauthorizedException</PackageReleaseNotes>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Version>1.0.1</Version>
     <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <PackageIcon></PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
