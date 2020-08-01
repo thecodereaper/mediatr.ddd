@@ -10,16 +10,16 @@
     <PackageProjectUrl>https://github.com/thecodereaper/mediatr.ddd</PackageProjectUrl>
     <RepositoryUrl>https://github.com/thecodereaper/mediatr.ddd</RepositoryUrl>
     <PackageTags>MediatR, DDD, CQRS, CQS</PackageTags>
-    <PackageReleaseNotes>Added IRule interface.</PackageReleaseNotes>
+    <PackageReleaseNotes>Upgraded nuget packages.</PackageReleaseNotes>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Version>1.0.2</Version>
     <AssemblyVersion>1.0.2.0</AssemblyVersion>
     <PackageIcon></PackageIcon>
-    <PackageVersion>1.0.3</PackageVersion>
+    <PackageVersion>1.0.4</PackageVersion>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="MediatR" Version="8.0.1" />
+    <PackageReference Include="MediatR" Version="8.1.0" />
   </ItemGroup>
 
 </Project>
