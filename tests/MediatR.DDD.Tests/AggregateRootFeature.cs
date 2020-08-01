@@ -163,5 +163,39 @@ namespace MediatR.DDD.Tests
             "And the event timestamp is set"
                 .x(() => mockEvent.TimeStamp.Date.Should().Be(DateTimeOffset.UtcNow.Date));
         }
+
+        [Scenario]
+        public void CheckRule_WhenAggregateAndAndValidRule_ThenShouldNotThrowError
+        (
+            MockAggregator mockAggregator,
+            Action action
+        )
+        {
+            "Give an aggregate with no id"
+                .x(() => mockAggregator = new MockAggregator());
+
+            "When a rule is validated"
+                .x(() => action = () => mockAggregator.CheckBusinessRule(true));
+
+            "Then an exception is not thrown"
+                .x(() => action.Should().NotThrow());
+        }
+
+        [Scenario]
+        public void CheckRule_WhenAggregateAndAndInvalidRule_ThenShouldThrowError
+        (
+            MockAggregator mockAggregator,
+            Action action
+        )
+        {
+            "Give an aggregate with no id"
+                .x(() => mockAggregator = new MockAggregator());
+
+            "When a rule is validated"
+                .x(() => action = () => mockAggregator.CheckBusinessRule(false));
+
+            "Then an exception is thrown"
+                .x(() => action.Should().Throw<RuleValidationException>());
+        }
     }
 }

@@ -4,13 +4,21 @@ Added the following objects to the MediatR library for DDD:
 - IAggregateRoot
 - IEvent
 - IEventStore
+- IPager
 - IRepository
+- IRule
 - Repository
 - ValueObject
 - AggregateConcurrencyException
 - AggregateEventMissingIdException
 - AggregateEventOutOfOrderException
 - AggregateNotFoundException
+- BadRequestException
+- ConflictException
+- ForbiddenException
+- MethodNotAllowedException
+- NotFoundException
+- RuleValidationException
 
 ### Installing MediatR.DDD
 

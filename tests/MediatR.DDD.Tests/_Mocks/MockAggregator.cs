@@ -18,6 +18,12 @@ namespace MediatR.DDD.Tests._Mocks
             RaiseEvent(new MockPropertyChangedEvent(Id, mockProperty));
         }
 
+        public void CheckBusinessRule(bool isValid)
+        {
+            IRule rule = new MockRule(isValid);
+            CheckRule(rule);
+        }
+
         private void Apply(MockPropertyChangedEvent e)
         {
             MockProperty = e.MockProperty;

@@ -10,11 +10,12 @@
     <PackageProjectUrl>https://github.com/thecodereaper/mediatr.ddd</PackageProjectUrl>
     <RepositoryUrl>https://github.com/thecodereaper/mediatr.ddd</RepositoryUrl>
     <PackageTags>MediatR, DDD, CQRS, CQS</PackageTags>
-    <PackageReleaseNotes>Added IPager interface.</PackageReleaseNotes>
+    <PackageReleaseNotes>Added IRule interface.</PackageReleaseNotes>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Version>1.0.2</Version>
     <AssemblyVersion>1.0.2.0</AssemblyVersion>
     <PackageIcon></PackageIcon>
+    <PackageVersion>1.0.3</PackageVersion>
   </PropertyGroup>
 
   <ItemGroup>

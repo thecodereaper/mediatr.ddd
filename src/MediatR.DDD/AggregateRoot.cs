@@ -53,6 +53,12 @@ namespace MediatR.DDD
             }
         }
 
+        protected void CheckRule(IRule rule)
+        {
+            if (!rule.IsValid())
+                throw new RuleValidationException();
+        }
+
         protected void RaiseEvent(IEvent e)
         {
             lock (_pendingEvents)
